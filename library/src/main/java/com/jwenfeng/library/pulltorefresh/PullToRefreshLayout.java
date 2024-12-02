@@ -3,7 +3,6 @@ package com.jwenfeng.library.pulltorefresh;
 import android.animation.ValueAnimator;
 import android.content.Context;
 import android.content.res.TypedArray;
-import android.support.v4.view.ViewCompat;
 import android.util.AttributeSet;
 import android.view.Gravity;
 import android.view.LayoutInflater;
@@ -12,6 +11,8 @@ import android.view.View;
 import android.view.ViewConfiguration;
 import android.view.ViewGroup;
 import android.widget.FrameLayout;
+
+import androidx.core.view.ViewCompat;
 
 import com.jwenfeng.library.R;
 import com.jwenfeng.library.pulltorefresh.util.DisplayUtil;
